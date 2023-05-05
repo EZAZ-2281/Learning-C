@@ -110,3 +110,14 @@ int main() {
     return 0;
 }
 ```
+### Count number of '\\' in an input 
+```
+txt = input("Enter input: ") 
+
+count = 0 
+for i in range(len(txt)): 
+    if txt[i] == '\\': 
+        count = count + 1
+        
+print(count) 
+```
