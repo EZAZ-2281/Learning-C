@@ -82,3 +82,31 @@ int main()
     return 0;
 }
 ```
+### String Detection 
+```
+#include <stdio.h>
+
+int main() {
+    char input[100], output[100];
+    int i = 0, j = 0;
+
+    printf("Enter a string: ");
+    gets(input); 
+
+    while (input[i] != '\0') {
+        if ((input[i] >= 'a' && input[i] <= 'z') || (input[i] >= 'A' && input[i] <= 'Z')) {
+            output[j++] = input[i];
+        }
+        i++;
+    }
+    output[j] = '\0';
+
+    if (output[0] != '\0') {
+        printf("String part: %s\n", output);
+    } else {
+        printf("No String detected.\n");
+    }
+
+    return 0;
+}
+```
