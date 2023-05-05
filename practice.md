@@ -137,3 +137,16 @@ for i in pattern:
     else:
         print(i," not found in the string - ", s1)   
  ```
+ 
+### Valid or Invalid Identifier 
+```
+import re
+
+identifier = input("Enter an identifier: ")
+
+if re.match(r'^[a-zA-Z_]\w*$', identifier):
+    print("Valid identifier")
+else:
+    print("Invalid identifier")
+```
+> The regular expression pattern r'^[a-zA-Z_]\w*$' matches an identifier that starts with an alphabetic character or an underscore, followed by zero or more alphanumeric characters or underscores.
