@@ -1,4 +1,4 @@
-### Remove Black Space
+### 1. Remove Black Space
 ```
 #include <stdio.h>
 
@@ -37,7 +37,7 @@ for i in str:
 print("String after removing spaces: ", new_str)
 ```
 
-### Single and Multi-Line Commnet 
+### 2. Single and Multi-Line Commnet 
 ```
 #include <stdio.h>
 
@@ -93,7 +93,7 @@ int main()
     return 0;
 }
 ```
-### String Detection 
+### 3. String Detection 
 ```
 #include <stdio.h>
 
@@ -121,7 +121,7 @@ int main() {
     return 0;
 }
 ```
-### Count number of '\\' or '\*' in an input 
+### 4. Count number of '\\' or '\*' in an input 
 ```
 txt = input("Enter input: ") 
 
@@ -132,7 +132,7 @@ for i in range(len(txt)):
         
 print(count) 
 ```
-### Finding Same Pattern 
+### 5. Finding Same Pattern 
 ```
 import re
 
@@ -149,7 +149,7 @@ for i in pattern:
         print(i," not found in the string - ", s1)   
  ```
  
-### Valid or Invalid Identifier 
+### 6. Valid or Invalid Identifier 
 ```
 import re
 
