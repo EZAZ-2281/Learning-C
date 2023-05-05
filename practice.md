@@ -110,7 +110,7 @@ int main() {
     return 0;
 }
 ```
-### Count number of '\\' in an input 
+### Count number of '\\' or '\*' in an input 
 ```
 txt = input("Enter input: ") 
 
