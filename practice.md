@@ -25,6 +25,17 @@ int main()
     return 0;
 }
 ```
+```
+Using Python 
+str = input("Enter a string: ")
+new_str = ""
+
+for i in str:
+    if i != ' ':
+        new_str += i
+
+print("String after removing spaces: ", new_str)
+```
 
 ### Single and Multi-Line Commnet 
 ```
